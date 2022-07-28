@@ -154,7 +154,7 @@ for (let i = letters.length -1; i >= 0; i--) {
 // statements (I recommend W3 Schools) and try to implement one for the following.
 
 // Do not edit the code below.
-let letterGrade = 'F'
+let letterGrade = 'f'
 // Do not edit the code above.
 
 /* Use a switch statement on 'letterGrade' and console.log the appropriate response.
@@ -168,7 +168,7 @@ If the letter grade is not one of the above letters, console.log 'Not an eligibl
 */
 
 //Code Here
-switch(letterGrade) {
+switch(letterGrade.toUpperCase()) {
   case "A":
     console.log("The student is doing excellently.")
     break;
